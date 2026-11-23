@@ -4,7 +4,7 @@
 
 Built for [#BuildHybridAI 2026](https://firebasehybridaihackathon.devpost.com) with **Firebase AI Logic hybrid inference** (Web / Chrome, Gemini Nano on device, Gemini in the cloud as fallback).
 
-**Try it: https://payee-guard.web.app** in Chrome desktop. With Gemini Nano available it reads on your device; otherwise it reads a redacted copy in the cloud (App Check with reCAPTCHA Enterprise protects the endpoint). Every company, person and account in the sample inbox is invented.
+**Try it: https://payee-guard.web.app** in Chrome desktop. **Demo video (2:09): https://youtu.be/a9HkudmXrN0** With Gemini Nano available it reads on your device; otherwise it reads a redacted copy in the cloud (App Check with reCAPTCHA Enterprise protects the endpoint). Every company, person and account in the sample inbox is invented.
 
 ## The problem
 
