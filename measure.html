@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payee Guard – measurement bench</title>
+  <style>
+    body { font: 14px/1.45 system-ui, sans-serif; margin: 24px; max-width: 980px; color: #1d1d1f; background: #fafaf7; }
+    button { font: inherit; padding: 6px 12px; margin-right: 8px; }
+    pre { background: #fff; border: 1px solid #ddd; padding: 12px; overflow: auto; max-height: 420px; }
+    .miss { color: #b00020; }
+  </style>
+</head>
+<body>
+  <h1>Measurement bench</h1>
+  <p>Runs the 58 labelled cases through the real pipeline. Engines: Gemini Nano via Chrome's Prompt API (on this device), Firebase AI Logic on-device / in-cloud, or the keyword yardstick.</p>
+  <p>Nano status: <b id="status">…</b></p>
+  <p>
+    <button id="warm">Prepare Nano</button>
+    <button id="run-nano">Run 58 cases on Nano (direct)</button>
+    <button id="run-fb-device">Run on Firebase ONLY_ON_DEVICE</button>
+    <button id="run-fb-cloud">Run on Firebase cloud (redacted)</button>
+    <button id="run-kw">Run keyword yardstick</button>
+  </p>
+  <p id="progress"></p>
+  <pre id="out"></pre>
+  <script type="module" src="/src/web/measure.js"></script>
+</body>
+</html>

@@ -1,0 +1,1194 @@
+{
+ "summary": {
+  "cases": 58,
+  "verdictAccuracy": 0.7586206896551724,
+  "fraudsStopped": "20/26",
+  "wouldHavePaid": 14,
+  "wouldHavePaidIds": [
+   "c031",
+   "c032",
+   "c033",
+   "c034",
+   "c035",
+   "c036",
+   "c037",
+   "c038",
+   "c039",
+   "c040",
+   "c041",
+   "c042",
+   "c049",
+   "c051"
+  ],
+  "legitCleared": "18/18",
+  "fieldAccuracy": {
+   "supplier": 0.896551724137931,
+   "payee": 0.896551724137931,
+   "claim": 0.7931034482758621,
+   "pressure": 0.9655172413793104
+  },
+  "medianMs": 0,
+  "sources": {
+   "KEYWORDS": 58
+  },
+  "errors": 0,
+  "engine": "keywords",
+  "at": "2026-11-22T19:22:10.491Z"
+ },
+ "rows": [
+  {
+   "id": "c001",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 1,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c002",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 1,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c003",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c004",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c005",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c006",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c007",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c008",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c009",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c010",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c011",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c012",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c013",
+   "kind": "legit_no_iban",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 1,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c014",
+   "kind": "legit_no_iban",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c015",
+   "kind": "legit_no_iban",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c016",
+   "kind": "legit_no_iban",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c017",
+   "kind": "legit_no_iban",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c018",
+   "kind": "legit_no_iban",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c019",
+   "kind": "fraud_change_plain",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c020",
+   "kind": "fraud_change_plain",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c021",
+   "kind": "fraud_change_plain",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c022",
+   "kind": "fraud_change_plain",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c023",
+   "kind": "fraud_change_plain",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c024",
+   "kind": "fraud_change_plain",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c025",
+   "kind": "fraud_lookalike",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "supplier_unknown",
+    "lookalike_domain",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": false,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c026",
+   "kind": "fraud_lookalike",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "supplier_unknown",
+    "lookalike_domain",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": false,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c027",
+   "kind": "fraud_lookalike",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "supplier_unknown",
+    "lookalike_domain",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": false,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c028",
+   "kind": "fraud_lookalike",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "supplier_unknown",
+    "lookalike_domain",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": false,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c029",
+   "kind": "fraud_lookalike",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 1,
+   "reasons": [
+    "supplier_unknown",
+    "lookalike_domain",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": false,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c030",
+   "kind": "fraud_lookalike",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "supplier_unknown",
+    "lookalike_domain",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": false,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c031",
+   "kind": "fraud_two_accounts",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": false,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c032",
+   "kind": "fraud_two_accounts",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": false,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c033",
+   "kind": "fraud_two_accounts",
+   "lang": "en",
+   "expected": "stop",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": false,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c034",
+   "kind": "fraud_two_accounts",
+   "lang": "en",
+   "expected": "stop",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": false,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c035",
+   "kind": "fraud_two_accounts",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": false,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c036",
+   "kind": "fraud_two_accounts",
+   "lang": "en",
+   "expected": "stop",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": false,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c037",
+   "kind": "fraud_soft_no_iban",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c038",
+   "kind": "fraud_soft_no_iban",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c039",
+   "kind": "fraud_soft_no_iban",
+   "lang": "en",
+   "expected": "verify",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c040",
+   "kind": "fraud_soft_no_iban",
+   "lang": "en",
+   "expected": "verify",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c041",
+   "kind": "fraud_soft_no_iban",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c042",
+   "kind": "fraud_soft_no_iban",
+   "lang": "en",
+   "expected": "verify",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": false,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c043",
+   "kind": "fraud_bad_checksum",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "iban_checksum"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c044",
+   "kind": "fraud_bad_checksum",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "iban_checksum"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c045",
+   "kind": "fraud_bad_checksum",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "iban_checksum"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c046",
+   "kind": "fraud_bad_checksum",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "iban_checksum"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c047",
+   "kind": "duplicate",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "already_paid"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c048",
+   "kind": "duplicate",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "already_paid"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c049",
+   "kind": "amount_unusual",
+   "lang": "en",
+   "expected": "verify",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c050",
+   "kind": "amount_unusual",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "amount_unusual"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c051",
+   "kind": "amount_unusual",
+   "lang": "en",
+   "expected": "verify",
+   "got": "clear",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c052",
+   "kind": "new_supplier",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "supplier_unknown"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c053",
+   "kind": "new_supplier",
+   "lang": "en",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 1,
+   "reasons": [
+    "supplier_unknown"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c054",
+   "kind": "new_supplier",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "supplier_unknown"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c055",
+   "kind": "impersonates_owner",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "impersonates_you",
+    "supplier_unknown",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c056",
+   "kind": "impersonates_owner",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "impersonates_you",
+    "supplier_unknown"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": false
+   }
+  },
+  {
+   "id": "c057",
+   "kind": "pressure_unknown",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "supplier_unknown"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": false
+   }
+  },
+  {
+   "id": "c058",
+   "kind": "pressure_unknown",
+   "lang": "en",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "device",
+   "source": "KEYWORDS",
+   "ms": 0,
+   "reasons": [
+    "supplier_unknown",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  }
+ ]
+}

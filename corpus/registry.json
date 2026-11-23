@@ -1,0 +1,108 @@
+{
+  "self": {
+    "names": [
+      "Pharmacie des Goudes"
+    ],
+    "domains": [
+      "pharmacie-goudes.fr"
+    ]
+  },
+  "suppliers": [
+    {
+      "id": "calanquia",
+      "names": [
+        "Calanquia Distribution"
+      ],
+      "domains": [
+        "calanquia-distribution.fr"
+      ],
+      "country": "FR",
+      "usualMax": 25000,
+      "ibans": [
+        "FR2689969366032948545092841"
+      ]
+    },
+    {
+      "id": "orvanne",
+      "names": [
+        "Laboratoires Orvanne",
+        "Labo Orvanne"
+      ],
+      "domains": [
+        "orvanne-labo.fr"
+      ],
+      "country": "FR",
+      "usualMax": 8000,
+      "ibans": [
+        "FR1854138232861944390081855"
+      ]
+    },
+    {
+      "id": "mistralys",
+      "names": [
+        "Mistralys Medical"
+      ],
+      "domains": [
+        "mistralys-medical.com"
+      ],
+      "country": "FR",
+      "usualMax": 3000,
+      "ibans": [
+        "FR0979548957194623178355719"
+      ]
+    },
+    {
+      "id": "northgate",
+      "names": [
+        "Northgate Packaging Ltd",
+        "Northgate Packaging"
+      ],
+      "domains": [
+        "northgate-packaging.co.uk"
+      ],
+      "country": "GB",
+      "usualMax": 1500,
+      "ibans": [
+        "GB21FJZH73854627871794"
+      ]
+    },
+    {
+      "id": "stlazrin",
+      "names": [
+        "Blanchisserie Saint-Lazrin"
+      ],
+      "domains": [
+        "blanchisserie-stlazrin.fr"
+      ],
+      "country": "FR",
+      "usualMax": 600,
+      "ibans": [
+        "FR5383399525413501729194831"
+      ]
+    },
+    {
+      "id": "kestrel",
+      "names": [
+        "Kestrelsoft Systems"
+      ],
+      "domains": [
+        "kestrelsoft.ie"
+      ],
+      "country": "IE",
+      "usualMax": 400,
+      "ibans": [
+        "IE69DACH51631271068066"
+      ]
+    }
+  ],
+  "paid": [
+    {
+      "supplierId": "orvanne",
+      "invoiceNumber": "ORV-2026-0418"
+    },
+    {
+      "supplierId": "calanquia",
+      "invoiceNumber": "CD-77120"
+    }
+  ]
+}

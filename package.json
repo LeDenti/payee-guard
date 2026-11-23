@@ -1,0 +1,21 @@
+{
+  "name": "payee-guard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node --test tests/",
+    "corpus": "node corpus/build.mjs",
+    "eval:keywords": "node eval/run-node.mjs keywords",
+    "eval:oracle": "node eval/run-node.mjs oracle",
+    "build": "vite build && node scripts/check-build.mjs",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "firebase": "^13.4.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}

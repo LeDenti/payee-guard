@@ -1,0 +1,1223 @@
+{
+ "summary": {
+  "cases": 58,
+  "verdictAccuracy": 1,
+  "fraudsStopped": "26/26",
+  "wouldHavePaid": 0,
+  "wouldHavePaidIds": [],
+  "legitCleared": "18/18",
+  "fieldAccuracy": {
+   "supplier": 1,
+   "payee": 1,
+   "claim": 1,
+   "pressure": 1
+  },
+  "medianMs": 1929,
+  "sources": {
+   "IN_CLOUD": 58
+  },
+  "errors": 0,
+  "engine": "firebase-cloud-redacted",
+  "totalSeconds": 311.2,
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+  "at": "2026-11-22T19:20:46.167Z"
+ },
+ "rows": [
+  {
+   "id": "c001",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 2480,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c002",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1086,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c003",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1185,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c004",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 6002,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c005",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 3154,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c006",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 3804,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c007",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 4103,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c008",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 5921,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c009",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 10052,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c010",
+   "kind": "legit_on_file",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 2584,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c011",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1870,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c012",
+   "kind": "legit_on_file",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 3435,
+   "reasons": [],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c013",
+   "kind": "legit_no_iban",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1189,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c014",
+   "kind": "legit_no_iban",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 2345,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c015",
+   "kind": "legit_no_iban",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 8371,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c016",
+   "kind": "legit_no_iban",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 8507,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c017",
+   "kind": "legit_no_iban",
+   "lang": "fr",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1225,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c018",
+   "kind": "legit_no_iban",
+   "lang": "en",
+   "expected": "clear",
+   "got": "clear",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 891,
+   "reasons": [
+    "pay_on_file"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c019",
+   "kind": "fraud_change_plain",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1899,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c020",
+   "kind": "fraud_change_plain",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 2616,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c021",
+   "kind": "fraud_change_plain",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 9049,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c022",
+   "kind": "fraud_change_plain",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 3183,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c023",
+   "kind": "fraud_change_plain",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 954,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c024",
+   "kind": "fraud_change_plain",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 5406,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c025",
+   "kind": "fraud_lookalike",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1740,
+   "reasons": [
+    "lookalike_domain",
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c026",
+   "kind": "fraud_lookalike",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 3516,
+   "reasons": [
+    "lookalike_domain",
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c027",
+   "kind": "fraud_lookalike",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1190,
+   "reasons": [
+    "lookalike_domain",
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c028",
+   "kind": "fraud_lookalike",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 5143,
+   "reasons": [
+    "lookalike_domain",
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c029",
+   "kind": "fraud_lookalike",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 2462,
+   "reasons": [
+    "lookalike_domain",
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c030",
+   "kind": "fraud_lookalike",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 7005,
+   "reasons": [
+    "lookalike_domain",
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c031",
+   "kind": "fraud_two_accounts",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 4577,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c032",
+   "kind": "fraud_two_accounts",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 4882,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c033",
+   "kind": "fraud_two_accounts",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 913,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c034",
+   "kind": "fraud_two_accounts",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 2622,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c035",
+   "kind": "fraud_two_accounts",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1011,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c036",
+   "kind": "fraud_two_accounts",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1257,
+   "reasons": [
+    "iban_not_on_file",
+    "iban_country",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c037",
+   "kind": "fraud_soft_no_iban",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 981,
+   "reasons": [
+    "pay_on_file",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c038",
+   "kind": "fraud_soft_no_iban",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 2274,
+   "reasons": [
+    "pay_on_file",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c039",
+   "kind": "fraud_soft_no_iban",
+   "lang": "en",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1203,
+   "reasons": [
+    "pay_on_file",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c040",
+   "kind": "fraud_soft_no_iban",
+   "lang": "en",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1295,
+   "reasons": [
+    "pay_on_file",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c041",
+   "kind": "fraud_soft_no_iban",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 787,
+   "reasons": [
+    "pay_on_file",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c042",
+   "kind": "fraud_soft_no_iban",
+   "lang": "en",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 960,
+   "reasons": [
+    "pay_on_file",
+    "bank_change_claim"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c043",
+   "kind": "fraud_bad_checksum",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 5306,
+   "reasons": [
+    "iban_checksum"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c044",
+   "kind": "fraud_bad_checksum",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 938,
+   "reasons": [
+    "iban_checksum"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c045",
+   "kind": "fraud_bad_checksum",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 877,
+   "reasons": [
+    "iban_checksum"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c046",
+   "kind": "fraud_bad_checksum",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 2827,
+   "reasons": [
+    "iban_checksum"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c047",
+   "kind": "duplicate",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 839,
+   "reasons": [
+    "already_paid"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c048",
+   "kind": "duplicate",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 983,
+   "reasons": [
+    "already_paid"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c049",
+   "kind": "amount_unusual",
+   "lang": "en",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1125,
+   "reasons": [
+    "amount_unusual"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c050",
+   "kind": "amount_unusual",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1260,
+   "reasons": [
+    "amount_unusual"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c051",
+   "kind": "amount_unusual",
+   "lang": "en",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1964,
+   "reasons": [
+    "amount_unusual"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c052",
+   "kind": "new_supplier",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1193,
+   "reasons": [
+    "supplier_unknown"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c053",
+   "kind": "new_supplier",
+   "lang": "en",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1656,
+   "reasons": [
+    "supplier_unknown"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c054",
+   "kind": "new_supplier",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1093,
+   "reasons": [
+    "supplier_unknown"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c055",
+   "kind": "impersonates_owner",
+   "lang": "fr",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 5554,
+   "reasons": [
+    "impersonates_you",
+    "supplier_unknown",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c056",
+   "kind": "impersonates_owner",
+   "lang": "en",
+   "expected": "stop",
+   "got": "stop",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 872,
+   "reasons": [
+    "impersonates_you",
+    "supplier_unknown",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c057",
+   "kind": "pressure_unknown",
+   "lang": "fr",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 945,
+   "reasons": [
+    "supplier_unknown",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  },
+  {
+   "id": "c058",
+   "kind": "pressure_unknown",
+   "lang": "en",
+   "expected": "verify",
+   "got": "verify",
+   "status": "ok",
+   "route": "cloud",
+   "source": "IN_CLOUD",
+   "ms": 1929,
+   "reasons": [
+    "supplier_unknown",
+    "pressure"
+   ],
+   "fields": {
+    "supplier": true,
+    "payee": true,
+    "claim": true,
+    "pressure": true
+   }
+  }
+ ]
+}

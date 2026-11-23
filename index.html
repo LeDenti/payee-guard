@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payee Guard</title>
+  <meta name="description" content="Check a supplier invoice before you pay it. Read on your device; the cloud only sees a redacted copy.">
+  <link rel="stylesheet" href="/src/web/app.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand"><span class="logo" aria-hidden="true">◈</span> Payee Guard</div>
+    <div class="tagline">Check an invoice before you pay it. The model reads, the rules decide, you confirm.</div>
+    <div class="engine" id="engine" title="Where documents are read">…</div>
+  </header>
+
+  <main class="grid">
+    <section class="panel inbox">
+      <h2>Inbox</h2>
+      <ul id="docs" class="docs"></ul>
+      <button id="paste" class="ghost">+ Paste a document</button>
+      <details class="registry">
+        <summary>Your suppliers <span id="supcount"></span></summary>
+        <ul id="suppliers"></ul>
+        <p class="fine">Kept on this device only. Accounts are verified ones: added after a call to a number you already had.</p>
+      </details>
+    </section>
+
+    <section class="panel doc">
+      <h2 id="doc-title">Document</h2>
+      <textarea id="text" spellcheck="false" placeholder="Paste an invoice or a payment e-mail here."></textarea>
+      <div class="row">
+        <button id="check" class="primary">Check before paying</button>
+        <label class="toggle"><input type="checkbox" id="allow-cloud" checked> If no on-device model, use the cloud with a redacted copy</label>
+      </div>
+    </section>
+
+    <section class="panel verdict" id="verdict-panel" aria-live="polite">
+      <h2>Verdict</h2>
+      <div id="verdict" class="verdict-card empty">Pick a document and press <b>Check before paying</b>.</div>
+      <ul id="reasons" class="reasons"></ul>
+      <div id="where" class="where"></div>
+      <details id="seen-box" class="seen" hidden>
+        <summary>Exactly what the model saw (the document part)</summary>
+        <pre id="seen"></pre>
+      </details>
+      <div id="actions" class="actions" hidden>
+        <p class="fine">You decide. Nothing is paid from here.</p>
+        <button data-act="paid">Mark as paid</button>
+        <button data-act="verified">I called them: the new account is genuine</button>
+        <button data-act="rejected" class="danger">Reject</button>
+      </div>
+      <details class="journal">
+        <summary>Decision log</summary>
+        <ol id="journal"></ol>
+      </details>
+    </section>
+  </main>
+
+  <footer class="foot">
+    Built for #BuildHybridAI with Firebase AI Logic hybrid inference. Every company, person and account in the samples is invented.
+    <a href="https://github.com/LeDenti/payee-guard">Source</a> · <a href="/measure.html">Measurement bench</a>
+  </footer>
+  <script type="module" src="/src/web/app.js"></script>
+</body>
+</html>

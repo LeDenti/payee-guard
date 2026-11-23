@@ -1,0 +1,922 @@
+[
+  {
+    "id": "c001",
+    "kind": "legit_on_file",
+    "lang": "fr",
+    "text": "De : Paul Testanière <compta@calanquia-distribution.fr>\nObjet : Facture CD-77642\n\nCalanquia Distribution\n12 avenue du Prado, 13008 Marseille\nSIRET 412 928 729 00027 – TVA FR32 412386753\n\nFacture n° CD-77642\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 14 274,28 €\nRèglement par virement : IBAN FR26 8996 9366 0329 4854 5092 841 – BIC PJDPFRPPKUR\n\nContact : Paul Testanière, 04 91 81 65 59",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "calanquia",
+      "payee": "FR2689969366032948545092841",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "CD-77642",
+      "total": 14274.28,
+      "issuerName": "Calanquia Distribution"
+    }
+  },
+  {
+    "id": "c002",
+    "kind": "legit_on_file",
+    "lang": "fr",
+    "text": "De : Claire Bastide <compta@calanquia-distribution.fr>\nObjet : Facture CD-70221\n\nCalanquia Distribution\n12 avenue du Prado, 13008 Marseille\nSIRET 412 807 221 00027 – TVA FR34 412600601\n\nFacture n° CD-70221\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 10 813,75 €\nRèglement par virement : IBAN FR26 8996 9366 0329 4854 5092 841 – BIC KPCSFRPPABC\n\nContact : Claire Bastide, 04 91 74 32 00",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "calanquia",
+      "payee": "FR2689969366032948545092841",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "CD-70221",
+      "total": 10813.75,
+      "issuerName": "Calanquia Distribution"
+    }
+  },
+  {
+    "id": "c003",
+    "kind": "legit_on_file",
+    "lang": "fr",
+    "text": "De : Paul Testanière <compta@orvanne-labo.fr>\nObjet : Facture ORV-2026-9288\n\nLaboratoires Orvanne\n12 avenue du Prado, 13008 Marseille\nSIRET 412 552 265 00027 – TVA FR13 412096113\n\nFacture n° ORV-2026-9288\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 3 593,00 €\nRèglement par virement : IBAN FR18 5413 8232 8619 4439 0081 855 – BIC GLESFRPPAEN\n\nContact : Paul Testanière, 04 91 62 95 73",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "orvanne",
+      "payee": "FR1854138232861944390081855",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "ORV-2026-9288",
+      "total": 3593,
+      "issuerName": "Laboratoires Orvanne"
+    }
+  },
+  {
+    "id": "c004",
+    "kind": "legit_on_file",
+    "lang": "fr",
+    "text": "De : Nadia Oulmi <compta@orvanne-labo.fr>\nObjet : Facture ORV-2026-9719\n\nLaboratoires Orvanne\n12 avenue du Prado, 13008 Marseille\nSIRET 412 960 307 00027 – TVA FR13 412274692\n\nFacture n° ORV-2026-9719\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 2 181,88 €\nRèglement par virement : IBAN FR18 5413 8232 8619 4439 0081 855 – BIC KTXGFRPPHBY\n\nContact : Nadia Oulmi, 04 91 41 81 25",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "orvanne",
+      "payee": "FR1854138232861944390081855",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "ORV-2026-9719",
+      "total": 2181.88,
+      "issuerName": "Laboratoires Orvanne"
+    }
+  },
+  {
+    "id": "c005",
+    "kind": "legit_on_file",
+    "lang": "en",
+    "text": "From: Dan Whitcombe <accounts@mistralys-medical.com>\nSubject: Invoice MIS-41131\n\nMistralys Medical\nUnit 4, Harbour Road\n\nINVOICE MIS-41131\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €1,758.09\nPay by bank transfer to IBAN FR09 7954 8957 1946 2317 8355 719, BIC KGZUFR2U\n\nQuestions: Dan Whitcombe, 04 91 53 45 92",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "mistralys",
+      "payee": "FR0979548957194623178355719",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "MIS-41131",
+      "total": 1758.09,
+      "issuerName": "Mistralys Medical"
+    }
+  },
+  {
+    "id": "c006",
+    "kind": "legit_on_file",
+    "lang": "en",
+    "text": "From: Dan Whitcombe <accounts@mistralys-medical.com>\nSubject: Invoice MIS-34885\n\nMistralys Medical\nUnit 4, Harbour Road\n\nINVOICE MIS-34885\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €1,780.23\nPay by bank transfer to IBAN FR09 7954 8957 1946 2317 8355 719, BIC FYYEFR2P\n\nQuestions: Dan Whitcombe, 04 91 85 25 93",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "mistralys",
+      "payee": "FR0979548957194623178355719",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "MIS-34885",
+      "total": 1780.23,
+      "issuerName": "Mistralys Medical"
+    }
+  },
+  {
+    "id": "c007",
+    "kind": "legit_on_file",
+    "lang": "en",
+    "text": "From: Tom Ashdown <accounts@northgate-packaging.co.uk>\nSubject: Invoice NOR-07803\n\nNorthgate Packaging Ltd\nUnit 4, Harbour Road, Bristol BS1 6QP\n\nINVOICE NOR-07803\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: £1,067.48\nPay by bank transfer to IBAN GB21 FJZH 7385 4627 8717 94, BIC RABOGB2D\n\nQuestions: Tom Ashdown, +44 20 7946 5565",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "northgate",
+      "payee": "GB21FJZH73854627871794",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "NOR-07803",
+      "total": 1067.48,
+      "issuerName": "Northgate Packaging Ltd"
+    }
+  },
+  {
+    "id": "c008",
+    "kind": "legit_on_file",
+    "lang": "en",
+    "text": "From: Megan Hollis <accounts@northgate-packaging.co.uk>\nSubject: Invoice NOR-95172\n\nNorthgate Packaging Ltd\nUnit 4, Harbour Road, Bristol BS1 6TL\n\nINVOICE NOR-95172\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: £1,174.01\nPay by bank transfer to IBAN GB21 FJZH 7385 4627 8717 94, BIC PJNNGB2W\n\nQuestions: Megan Hollis, +44 20 7946 2398",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "northgate",
+      "payee": "GB21FJZH73854627871794",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "NOR-95172",
+      "total": 1174.01,
+      "issuerName": "Northgate Packaging Ltd"
+    }
+  },
+  {
+    "id": "c009",
+    "kind": "legit_on_file",
+    "lang": "fr",
+    "text": "De : Hugo Ferracci <compta@blanchisserie-stlazrin.fr>\nObjet : Facture STL-48013\n\nBlanchisserie Saint-Lazrin\n12 avenue du Prado, 13008 Marseille\nSIRET 412 250 343 00027 – TVA FR36 412637417\n\nFacture n° STL-48013\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 105,50 €\nRèglement par virement : IBAN FR53 8339 9525 4135 0172 9194 831 – BIC TLBSFRPPEHX\n\nContact : Hugo Ferracci, 04 91 53 43 26",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "stlazrin",
+      "payee": "FR5383399525413501729194831",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "STL-48013",
+      "total": 105.5,
+      "issuerName": "Blanchisserie Saint-Lazrin"
+    }
+  },
+  {
+    "id": "c010",
+    "kind": "legit_on_file",
+    "lang": "fr",
+    "text": "De : Nadia Oulmi <compta@blanchisserie-stlazrin.fr>\nObjet : Facture STL-83177\n\nBlanchisserie Saint-Lazrin\n12 avenue du Prado, 13008 Marseille\nSIRET 412 209 592 00027 – TVA FR89 412603958\n\nFacture n° STL-83177\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 342,09 €\nRèglement par virement : IBAN FR53 8339 9525 4135 0172 9194 831 – BIC ZGSTFRPPQOE\n\nContact : Nadia Oulmi, 04 91 01 35 01",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "stlazrin",
+      "payee": "FR5383399525413501729194831",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "STL-83177",
+      "total": 342.09,
+      "issuerName": "Blanchisserie Saint-Lazrin"
+    }
+  },
+  {
+    "id": "c011",
+    "kind": "legit_on_file",
+    "lang": "en",
+    "text": "From: Tom Ashdown <accounts@kestrelsoft.ie>\nSubject: Invoice KES-99830\n\nKestrelsoft Systems\nUnit 4, Harbour Road\n\nINVOICE KES-99830\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €334.05\nPay by bank transfer to IBAN IE69 DACH 5163 1271 0680 66, BIC FKMJIE2R\n\nQuestions: Tom Ashdown, +353 1 555 7258",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "kestrel",
+      "payee": "IE69DACH51631271068066",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "KES-99830",
+      "total": 334.05,
+      "issuerName": "Kestrelsoft Systems"
+    }
+  },
+  {
+    "id": "c012",
+    "kind": "legit_on_file",
+    "lang": "en",
+    "text": "From: Megan Hollis <accounts@kestrelsoft.ie>\nSubject: Invoice KES-10107\n\nKestrelsoft Systems\nUnit 4, Harbour Road\n\nINVOICE KES-10107\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €101.59\nPay by bank transfer to IBAN IE69 DACH 5163 1271 0680 66, BIC XLWLIE2D\n\nQuestions: Megan Hollis, +353 1 555 2494",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "kestrel",
+      "payee": "IE69DACH51631271068066",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "KES-10107",
+      "total": 101.59,
+      "issuerName": "Kestrelsoft Systems"
+    }
+  },
+  {
+    "id": "c013",
+    "kind": "legit_no_iban",
+    "lang": "fr",
+    "text": "De : Paul Testanière <compta@calanquia-distribution.fr>\nObjet : Facture CD-90835\n\nCalanquia Distribution\n12 avenue du Prado, 13008 Marseille\nSIRET 412 795 724 00027 – TVA FR25 412645044\n\nFacture n° CD-90835\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 20 882,79 €\nRèglement par prélèvement SEPA selon le mandat en vigueur.\n\nContact : Paul Testanière, 04 91 30 14 23",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "calanquia",
+      "payee": null,
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "CD-90835",
+      "total": 20882.79,
+      "issuerName": "Calanquia Distribution"
+    }
+  },
+  {
+    "id": "c014",
+    "kind": "legit_no_iban",
+    "lang": "fr",
+    "text": "De : Paul Testanière <compta@orvanne-labo.fr>\nObjet : Facture ORV-2026-7582\n\nLaboratoires Orvanne\n12 avenue du Prado, 13008 Marseille\nSIRET 412 818 477 00027 – TVA FR97 412995819\n\nFacture n° ORV-2026-7582\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 6 228,10 €\nRèglement par prélèvement SEPA selon le mandat en vigueur.\n\nContact : Paul Testanière, 04 91 38 45 50",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "orvanne",
+      "payee": null,
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "ORV-2026-7582",
+      "total": 6228.1,
+      "issuerName": "Laboratoires Orvanne"
+    }
+  },
+  {
+    "id": "c015",
+    "kind": "legit_no_iban",
+    "lang": "en",
+    "text": "From: Priya Raman <accounts@mistralys-medical.com>\nSubject: Invoice MIS-12709\n\nMistralys Medical\nUnit 4, Harbour Road\n\nINVOICE MIS-12709\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €527.58\nPayment will be collected by direct debit under the existing mandate.\n\nQuestions: Priya Raman, 04 91 12 15 48",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "mistralys",
+      "payee": null,
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "MIS-12709",
+      "total": 527.58,
+      "issuerName": "Mistralys Medical"
+    }
+  },
+  {
+    "id": "c016",
+    "kind": "legit_no_iban",
+    "lang": "en",
+    "text": "From: Tom Ashdown <accounts@northgate-packaging.co.uk>\nSubject: Invoice NOR-20816\n\nNorthgate Packaging Ltd\nUnit 4, Harbour Road, Bristol BS1 6HG\n\nINVOICE NOR-20816\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: £969.84\nPayment will be collected by direct debit under the existing mandate.\n\nQuestions: Tom Ashdown, +44 20 7946 0133",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "northgate",
+      "payee": null,
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "NOR-20816",
+      "total": 969.84,
+      "issuerName": "Northgate Packaging Ltd"
+    }
+  },
+  {
+    "id": "c017",
+    "kind": "legit_no_iban",
+    "lang": "fr",
+    "text": "De : Hugo Ferracci <compta@blanchisserie-stlazrin.fr>\nObjet : Facture STL-67070\n\nBlanchisserie Saint-Lazrin\n12 avenue du Prado, 13008 Marseille\nSIRET 412 933 198 00027 – TVA FR26 412903188\n\nFacture n° STL-67070\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 239,96 €\nRèglement par prélèvement SEPA selon le mandat en vigueur.\n\nContact : Hugo Ferracci, 04 91 12 95 06",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "stlazrin",
+      "payee": null,
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "STL-67070",
+      "total": 239.96,
+      "issuerName": "Blanchisserie Saint-Lazrin"
+    }
+  },
+  {
+    "id": "c018",
+    "kind": "legit_no_iban",
+    "lang": "en",
+    "text": "From: Dan Whitcombe <accounts@kestrelsoft.ie>\nSubject: Invoice KES-43556\n\nKestrelsoft Systems\nUnit 4, Harbour Road\n\nINVOICE KES-43556\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €117.38\nPayment will be collected by direct debit under the existing mandate.\n\nQuestions: Dan Whitcombe, +353 1 555 4745",
+    "expect": {
+      "verdict": "clear",
+      "supplierId": "kestrel",
+      "payee": null,
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "KES-43556",
+      "total": 117.38,
+      "issuerName": "Kestrelsoft Systems"
+    }
+  },
+  {
+    "id": "c019",
+    "kind": "fraud_change_plain",
+    "lang": "fr",
+    "text": "De : Paul Testanière <compta@calanquia-distribution.fr>\nObjet : Facture CD-28400\n\nCalanquia Distribution\n12 avenue du Prado, 13008 Marseille\nSIRET 412 019 713 00027 – TVA FR92 412129514\n\nFacture n° CD-28400\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 11 360,70 €\nImportant : nos coordonnées bancaires ont changé. Merci de mettre à jour votre fichier.\nRèglement par virement : IBAN LT35 4320 4288 5729 4502 – BIC QIVNFRPPNOD\n\nContact : Paul Testanière, 04 91 70 13 03",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "calanquia",
+      "payee": "LT354320428857294502",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "CD-28400",
+      "total": 11360.7,
+      "issuerName": "Calanquia Distribution"
+    }
+  },
+  {
+    "id": "c020",
+    "kind": "fraud_change_plain",
+    "lang": "fr",
+    "text": "De : Hugo Ferracci <compta@orvanne-labo.fr>\nObjet : Facture ORV-2026-0514\n\nLaboratoires Orvanne\n12 avenue du Prado, 13008 Marseille\nSIRET 412 503 979 00027 – TVA FR76 412876000\n\nFacture n° ORV-2026-0514\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 4 593,94 €\nSuite à un changement de banque, merci de noter nos nouvelles coordonnées bancaires ci-dessous.\nRèglement par virement : IBAN DE95 8607 5565 7615 6901 97 – BIC UMRKFRPPMAI\n\nContact : Hugo Ferracci, 04 91 98 98 32",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "orvanne",
+      "payee": "DE95860755657615690197",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "ORV-2026-0514",
+      "total": 4593.94,
+      "issuerName": "Laboratoires Orvanne"
+    }
+  },
+  {
+    "id": "c021",
+    "kind": "fraud_change_plain",
+    "lang": "en",
+    "text": "From: Tom Ashdown <accounts@mistralys-medical.com>\nSubject: Invoice MIS-55728\n\nMistralys Medical\nUnit 4, Harbour Road\n\nINVOICE MIS-55728\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €1,402.07\nPlease note our bank details have changed. Kindly update your records and use the account below.\nPay by bank transfer to IBAN DE09 6585 4403 6717 9321 84, BIC BXBJFR2Z\n\nQuestions: Tom Ashdown, 04 91 59 12 51",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "mistralys",
+      "payee": "DE09658544036717932184",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "MIS-55728",
+      "total": 1402.07,
+      "issuerName": "Mistralys Medical"
+    }
+  },
+  {
+    "id": "c022",
+    "kind": "fraud_change_plain",
+    "lang": "en",
+    "text": "From: Dan Whitcombe <accounts@northgate-packaging.co.uk>\nSubject: Invoice NOR-38964\n\nNorthgate Packaging Ltd\nUnit 4, Harbour Road, Bristol BS1 6WL\n\nINVOICE NOR-38964\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: £784.77\nPlease note our bank details have changed. Kindly update your records and use the account below.\nPay by bank transfer to IBAN LT78 7914 1198 2944 8397, BIC MFJAGB2U\n\nQuestions: Dan Whitcombe, +44 20 7946 4842",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "northgate",
+      "payee": "LT787914119829448397",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "NOR-38964",
+      "total": 784.77,
+      "issuerName": "Northgate Packaging Ltd"
+    }
+  },
+  {
+    "id": "c023",
+    "kind": "fraud_change_plain",
+    "lang": "fr",
+    "text": "De : Nadia Oulmi <compta@blanchisserie-stlazrin.fr>\nObjet : Facture STL-07805\n\nBlanchisserie Saint-Lazrin\n12 avenue du Prado, 13008 Marseille\nSIRET 412 058 995 00027 – TVA FR49 412473162\n\nFacture n° STL-07805\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 411,95 €\nImportant : nos coordonnées bancaires ont changé. Merci de mettre à jour votre fichier.\nRèglement par virement : IBAN LT22 4347 0743 3846 6293 – BIC JWAKFRPPMOJ\n\nContact : Nadia Oulmi, 04 91 07 74 95",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "stlazrin",
+      "payee": "LT224347074338466293",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "STL-07805",
+      "total": 411.95,
+      "issuerName": "Blanchisserie Saint-Lazrin"
+    }
+  },
+  {
+    "id": "c024",
+    "kind": "fraud_change_plain",
+    "lang": "en",
+    "text": "From: Tom Ashdown <accounts@kestrelsoft.ie>\nSubject: Invoice KES-06856\n\nKestrelsoft Systems\nUnit 4, Harbour Road\n\nINVOICE KES-06856\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €125.20\nWe have recently changed our bank. Please use the new account below for this and all future payments.\nPay by bank transfer to IBAN LT74 9210 9222 1260 6505, BIC DJLGIE2A\n\nQuestions: Tom Ashdown, +353 1 555 6823",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "kestrel",
+      "payee": "LT749210922212606505",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "KES-06856",
+      "total": 125.2,
+      "issuerName": "Kestrelsoft Systems"
+    }
+  },
+  {
+    "id": "c025",
+    "kind": "fraud_lookalike",
+    "lang": "fr",
+    "text": "De : Paul Testanière <compta@calanquia-distribution.com>\nObjet : Facture CD-49673\n\nCalanquia Distribution\n12 avenue du Prado, 13008 Marseille\nSIRET 412 655 658 00027 – TVA FR19 412647141\n\nFacture n° CD-49673\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 12 310,42 €\nMerci de procéder au règlement aujourd'hui même pour éviter la suspension de vos livraisons. Suite à un changement de banque, merci de noter nos nouvelles coordonnées bancaires ci-dessous.\nRèglement par virement : IBAN LT57 0513 8690 4054 1767 – BIC VMPTFRPPGGJ\n\nContact : Paul Testanière, 04 91 95 26 33",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "calanquia",
+      "payee": "LT570513869040541767",
+      "claim": true,
+      "pressure": true,
+      "invoiceNumber": "CD-49673",
+      "total": 12310.42,
+      "issuerName": "Calanquia Distribution"
+    }
+  },
+  {
+    "id": "c026",
+    "kind": "fraud_lookalike",
+    "lang": "fr",
+    "text": "De : Claire Bastide <compta@orvanne-lab0.fr>\nObjet : Facture ORV-2026-7849\n\nLaboratoires Orvanne\n12 avenue du Prado, 13008 Marseille\nSIRET 412 090 419 00027 – TVA FR35 412991831\n\nFacture n° ORV-2026-7849\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 6 192,80 €\nMerci de procéder au règlement aujourd'hui même pour éviter la suspension de vos livraisons. Suite à un changement de banque, merci de noter nos nouvelles coordonnées bancaires ci-dessous.\nRèglement par virement : IBAN DE83 6382 3715 5713 0500 85 – BIC WYBMFRPPESY\n\nContact : Claire Bastide, 04 91 89 23 94",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "orvanne",
+      "payee": "DE83638237155713050085",
+      "claim": true,
+      "pressure": true,
+      "invoiceNumber": "ORV-2026-7849",
+      "total": 6192.8,
+      "issuerName": "Laboratoires Orvanne"
+    }
+  },
+  {
+    "id": "c027",
+    "kind": "fraud_lookalike",
+    "lang": "en",
+    "text": "From: Dan Whitcombe <accounts@mistralys-rnedical.com>\nSubject: Invoice MIS-57321\n\nMistralys Medical\nUnit 4, Harbour Road\n\nINVOICE MIS-57321\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €977.25\nPlease process this payment today to avoid suspension of your account. We have recently changed our bank. Please use the new account below for this and all future payments.\nPay by bank transfer to IBAN GB16 PMHU 2598 0422 5149 01, BIC LIXSFR2A\n\nQuestions: Dan Whitcombe, 04 91 41 72 93",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "mistralys",
+      "payee": "GB16PMHU25980422514901",
+      "claim": true,
+      "pressure": true,
+      "invoiceNumber": "MIS-57321",
+      "total": 977.25,
+      "issuerName": "Mistralys Medical"
+    }
+  },
+  {
+    "id": "c028",
+    "kind": "fraud_lookalike",
+    "lang": "en",
+    "text": "From: Priya Raman <accounts@northgate-packagings.co.uk>\nSubject: Invoice NOR-34338\n\nNorthgate Packaging Ltd\nUnit 4, Harbour Road, Bristol BS1 6QC\n\nINVOICE NOR-34338\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: £652.68\nPlease process this payment today to avoid suspension of your account. We have recently changed our bank. Please use the new account below for this and all future payments.\nPay by bank transfer to IBAN DE89 4829 2266 4768 4302 71, BIC DIBYGB2X\n\nQuestions: Priya Raman, +44 20 7946 9282",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "northgate",
+      "payee": "DE89482922664768430271",
+      "claim": true,
+      "pressure": true,
+      "invoiceNumber": "NOR-34338",
+      "total": 652.68,
+      "issuerName": "Northgate Packaging Ltd"
+    }
+  },
+  {
+    "id": "c029",
+    "kind": "fraud_lookalike",
+    "lang": "fr",
+    "text": "De : Hugo Ferracci <compta@blanchisserie-stlazrin-factures.fr>\nObjet : Facture STL-17659\n\nBlanchisserie Saint-Lazrin\n12 avenue du Prado, 13008 Marseille\nSIRET 412 727 759 00027 – TVA FR28 412007445\n\nFacture n° STL-17659\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 297,41 €\nMerci de procéder au règlement aujourd'hui même pour éviter la suspension de vos livraisons. Suite à un changement de banque, merci de noter nos nouvelles coordonnées bancaires ci-dessous.\nRèglement par virement : IBAN GB50 GCLI 5260 1723 3953 76 – BIC ABRYFRPPPHD\n\nContact : Hugo Ferracci, 04 91 88 96 10",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "stlazrin",
+      "payee": "GB50GCLI52601723395376",
+      "claim": true,
+      "pressure": true,
+      "invoiceNumber": "STL-17659",
+      "total": 297.41,
+      "issuerName": "Blanchisserie Saint-Lazrin"
+    }
+  },
+  {
+    "id": "c030",
+    "kind": "fraud_lookalike",
+    "lang": "en",
+    "text": "From: Megan Hollis <accounts@kestrelsfot.ie>\nSubject: Invoice KES-73269\n\nKestrelsoft Systems\nUnit 4, Harbour Road\n\nINVOICE KES-73269\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €163.58\nPlease process this payment today to avoid suspension of your account. We have recently changed our bank. Please use the new account below for this and all future payments.\nPay by bank transfer to IBAN LT16 6302 7926 3169 8914, BIC YOMGIE2I\n\nQuestions: Megan Hollis, +353 1 555 8954",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "kestrel",
+      "payee": "LT166302792631698914",
+      "claim": true,
+      "pressure": true,
+      "invoiceNumber": "KES-73269",
+      "total": 163.58,
+      "issuerName": "Kestrelsoft Systems"
+    }
+  },
+  {
+    "id": "c031",
+    "kind": "fraud_two_accounts",
+    "lang": "fr",
+    "text": "De : Claire Bastide <compta@calanquia-distribution.fr>\nObjet : Facture CD-54820\n\nCalanquia Distribution\n12 avenue du Prado, 13008 Marseille\nSIRET 412 813 562 00027 – TVA FR49 412866949\n\nFacture n° CD-54820\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 5 022,77 €\nPour cette facture et les suivantes, le règlement doit être adressé au compte LT31 1316 3344 0753 6750 ouvert auprès de notre partenaire financier. Le compte FR26 8996 9366 0329 4854 5092 841 sera clôturé à la fin du mois et ne doit plus être crédité.\n\nContact : Claire Bastide, 04 91 49 30 99",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "calanquia",
+      "payee": "LT311316334407536750",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "CD-54820",
+      "total": 5022.77,
+      "issuerName": "Calanquia Distribution"
+    }
+  },
+  {
+    "id": "c032",
+    "kind": "fraud_two_accounts",
+    "lang": "fr",
+    "text": "De : Nadia Oulmi <compta@orvanne-labo.fr>\nObjet : Facture ORV-2026-5254\n\nLaboratoires Orvanne\n12 avenue du Prado, 13008 Marseille\nSIRET 412 665 014 00027 – TVA FR09 412084829\n\nFacture n° ORV-2026-5254\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 5 891,76 €\nPour cette facture et les suivantes, le règlement doit être adressé au compte DE64 1225 8759 7227 9319 94 ouvert auprès de notre partenaire financier. Le compte FR18 5413 8232 8619 4439 0081 855 sera clôturé à la fin du mois et ne doit plus être crédité.\n\nContact : Nadia Oulmi, 04 91 70 28 31",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "orvanne",
+      "payee": "DE64122587597227931994",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "ORV-2026-5254",
+      "total": 5891.76,
+      "issuerName": "Laboratoires Orvanne"
+    }
+  },
+  {
+    "id": "c033",
+    "kind": "fraud_two_accounts",
+    "lang": "en",
+    "text": "From: Megan Hollis <accounts@mistralys-medical.com>\nSubject: Invoice MIS-02027\n\nMistralys Medical\nUnit 4, Harbour Road\n\nINVOICE MIS-02027\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €826.19\nFrom this invoice onward, settlement goes to the account LT74 9182 7473 2770 1930 held with our financing partner. The account FR09 7954 8957 1946 2317 8355 719 closes at month end and should no longer be credited.\n\nQuestions: Megan Hollis, 04 91 88 93 00",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "mistralys",
+      "payee": "LT749182747327701930",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "MIS-02027",
+      "total": 826.19,
+      "issuerName": "Mistralys Medical"
+    }
+  },
+  {
+    "id": "c034",
+    "kind": "fraud_two_accounts",
+    "lang": "en",
+    "text": "From: Tom Ashdown <accounts@northgate-packaging.co.uk>\nSubject: Invoice NOR-56109\n\nNorthgate Packaging Ltd\nUnit 4, Harbour Road, Bristol BS1 6QA\n\nINVOICE NOR-56109\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: £634.68\nFrom this invoice onward, settlement goes to the account LT26 8909 1836 3836 5704 held with our financing partner. The account GB21 FJZH 7385 4627 8717 94 closes at month end and should no longer be credited.\n\nQuestions: Tom Ashdown, +44 20 7946 7851",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "northgate",
+      "payee": "LT268909183638365704",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "NOR-56109",
+      "total": 634.68,
+      "issuerName": "Northgate Packaging Ltd"
+    }
+  },
+  {
+    "id": "c035",
+    "kind": "fraud_two_accounts",
+    "lang": "fr",
+    "text": "De : Hugo Ferracci <compta@blanchisserie-stlazrin.fr>\nObjet : Facture STL-85701\n\nBlanchisserie Saint-Lazrin\n12 avenue du Prado, 13008 Marseille\nSIRET 412 836 680 00027 – TVA FR29 412143259\n\nFacture n° STL-85701\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 244,31 €\nPour cette facture et les suivantes, le règlement doit être adressé au compte DE45 3278 2944 6424 9195 56 ouvert auprès de notre partenaire financier. Le compte FR53 8339 9525 4135 0172 9194 831 sera clôturé à la fin du mois et ne doit plus être crédité.\n\nContact : Hugo Ferracci, 04 91 66 87 58",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "stlazrin",
+      "payee": "DE45327829446424919556",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "STL-85701",
+      "total": 244.31,
+      "issuerName": "Blanchisserie Saint-Lazrin"
+    }
+  },
+  {
+    "id": "c036",
+    "kind": "fraud_two_accounts",
+    "lang": "en",
+    "text": "From: Dan Whitcombe <accounts@kestrelsoft.ie>\nSubject: Invoice KES-60839\n\nKestrelsoft Systems\nUnit 4, Harbour Road\n\nINVOICE KES-60839\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €274.12\nFrom this invoice onward, settlement goes to the account LT27 3244 5256 1670 2213 held with our financing partner. The account IE69 DACH 5163 1271 0680 66 closes at month end and should no longer be credited.\n\nQuestions: Dan Whitcombe, +353 1 555 3588",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "kestrel",
+      "payee": "LT273244525616702213",
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "KES-60839",
+      "total": 274.12,
+      "issuerName": "Kestrelsoft Systems"
+    }
+  },
+  {
+    "id": "c037",
+    "kind": "fraud_soft_no_iban",
+    "lang": "fr",
+    "text": "De : Hugo Ferracci <compta@calanquia-distribution.fr>\nObjet : Facture CD-01676\n\nCalanquia Distribution\n12 avenue du Prado, 13008 Marseille\nSIRET 412 927 125 00027 – TVA FR21 412551189\n\nFacture n° CD-01676\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 13 848,50 €\nNous vous informons que nous travaillons désormais avec un nouvel établissement : vous trouverez le RIB à jour en pièce jointe, à utiliser dès ce règlement.\n\nContact : Hugo Ferracci, 04 91 38 03 31",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": "calanquia",
+      "payee": null,
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "CD-01676",
+      "total": 13848.5,
+      "issuerName": "Calanquia Distribution"
+    }
+  },
+  {
+    "id": "c038",
+    "kind": "fraud_soft_no_iban",
+    "lang": "fr",
+    "text": "De : Claire Bastide <compta@orvanne-labo.fr>\nObjet : Facture ORV-2026-5073\n\nLaboratoires Orvanne\n12 avenue du Prado, 13008 Marseille\nSIRET 412 882 570 00027 – TVA FR28 412539192\n\nFacture n° ORV-2026-5073\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 5 278,50 €\nPetite précision : merci de ne plus utiliser l'ancien relevé d'identité bancaire, celui joint à ce message le remplace.\n\nContact : Claire Bastide, 04 91 31 26 86",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": "orvanne",
+      "payee": null,
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "ORV-2026-5073",
+      "total": 5278.5,
+      "issuerName": "Laboratoires Orvanne"
+    }
+  },
+  {
+    "id": "c039",
+    "kind": "fraud_soft_no_iban",
+    "lang": "en",
+    "text": "From: Dan Whitcombe <accounts@mistralys-medical.com>\nSubject: Invoice MIS-64899\n\nMistralys Medical\nUnit 4, Harbour Road\n\nINVOICE MIS-64899\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €815.24\nQuick note: we have moved our banking to a new provider. The updated remittance details are attached; please use them starting with this payment.\n\nQuestions: Dan Whitcombe, 04 91 97 18 69",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": "mistralys",
+      "payee": null,
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "MIS-64899",
+      "total": 815.24,
+      "issuerName": "Mistralys Medical"
+    }
+  },
+  {
+    "id": "c040",
+    "kind": "fraud_soft_no_iban",
+    "lang": "en",
+    "text": "From: Megan Hollis <accounts@northgate-packaging.co.uk>\nSubject: Invoice NOR-28300\n\nNorthgate Packaging Ltd\nUnit 4, Harbour Road, Bristol BS1 6YY\n\nINVOICE NOR-28300\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: £448.05\nQuick note: we have moved our banking to a new provider. The updated remittance details are attached; please use them starting with this payment.\n\nQuestions: Megan Hollis, +44 20 7946 6685",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": "northgate",
+      "payee": null,
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "NOR-28300",
+      "total": 448.05,
+      "issuerName": "Northgate Packaging Ltd"
+    }
+  },
+  {
+    "id": "c041",
+    "kind": "fraud_soft_no_iban",
+    "lang": "fr",
+    "text": "De : Nadia Oulmi <compta@blanchisserie-stlazrin.fr>\nObjet : Facture STL-40290\n\nBlanchisserie Saint-Lazrin\n12 avenue du Prado, 13008 Marseille\nSIRET 412 961 754 00027 – TVA FR08 412448718\n\nFacture n° STL-40290\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 412,38 €\nNous vous informons que nous travaillons désormais avec un nouvel établissement : vous trouverez le RIB à jour en pièce jointe, à utiliser dès ce règlement.\n\nContact : Nadia Oulmi, 04 91 48 45 78",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": "stlazrin",
+      "payee": null,
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "STL-40290",
+      "total": 412.38,
+      "issuerName": "Blanchisserie Saint-Lazrin"
+    }
+  },
+  {
+    "id": "c042",
+    "kind": "fraud_soft_no_iban",
+    "lang": "en",
+    "text": "From: Dan Whitcombe <accounts@kestrelsoft.ie>\nSubject: Invoice KES-05607\n\nKestrelsoft Systems\nUnit 4, Harbour Road\n\nINVOICE KES-05607\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €279.67\nQuick note: we have moved our banking to a new provider. The updated remittance details are attached; please use them starting with this payment.\n\nQuestions: Dan Whitcombe, +353 1 555 4875",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": "kestrel",
+      "payee": null,
+      "claim": true,
+      "pressure": false,
+      "invoiceNumber": "KES-05607",
+      "total": 279.67,
+      "issuerName": "Kestrelsoft Systems"
+    }
+  },
+  {
+    "id": "c043",
+    "kind": "fraud_bad_checksum",
+    "lang": "fr",
+    "text": "De : Paul Testanière <compta@calanquia-distribution.fr>\nObjet : Facture CD-59972\n\nCalanquia Distribution\n12 avenue du Prado, 13008 Marseille\nSIRET 412 804 673 00027 – TVA FR93 412481128\n\nFacture n° CD-59972\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 9 669,39 €\nRèglement par virement : IBAN FR26 8996 9366 0329 4854 5092 941 – BIC WXTEFRPPLQZ\n\nContact : Paul Testanière, 04 91 88 95 82",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "calanquia",
+      "payee": "FR2689969366032948545092941",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "CD-59972",
+      "total": 9669.39,
+      "issuerName": "Calanquia Distribution"
+    }
+  },
+  {
+    "id": "c044",
+    "kind": "fraud_bad_checksum",
+    "lang": "fr",
+    "text": "De : Nadia Oulmi <compta@orvanne-labo.fr>\nObjet : Facture ORV-2026-6720\n\nLaboratoires Orvanne\n12 avenue du Prado, 13008 Marseille\nSIRET 412 530 884 00027 – TVA FR08 412723937\n\nFacture n° ORV-2026-6720\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 5 157,56 €\nRèglement par virement : IBAN FR18 5413 8232 8619 4439 0081 955 – BIC KSCSFRPPQRT\n\nContact : Nadia Oulmi, 04 91 82 51 32",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "orvanne",
+      "payee": "FR1854138232861944390081955",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "ORV-2026-6720",
+      "total": 5157.56,
+      "issuerName": "Laboratoires Orvanne"
+    }
+  },
+  {
+    "id": "c045",
+    "kind": "fraud_bad_checksum",
+    "lang": "en",
+    "text": "From: Megan Hollis <accounts@mistralys-medical.com>\nSubject: Invoice MIS-46944\n\nMistralys Medical\nUnit 4, Harbour Road\n\nINVOICE MIS-46944\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €680.31\nPay by bank transfer to IBAN FR09 7954 8957 1946 2317 8355 819, BIC FKAMFR2V\n\nQuestions: Megan Hollis, 04 91 31 05 55",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "mistralys",
+      "payee": "FR0979548957194623178355819",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "MIS-46944",
+      "total": 680.31,
+      "issuerName": "Mistralys Medical"
+    }
+  },
+  {
+    "id": "c046",
+    "kind": "fraud_bad_checksum",
+    "lang": "en",
+    "text": "From: Tom Ashdown <accounts@northgate-packaging.co.uk>\nSubject: Invoice NOR-03142\n\nNorthgate Packaging Ltd\nUnit 4, Harbour Road, Bristol BS1 6YW\n\nINVOICE NOR-03142\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: £366.78\nPay by bank transfer to IBAN GB21 FJZH 7385 4627 8718 94, BIC PCNBGB2T\n\nQuestions: Tom Ashdown, +44 20 7946 3562",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "northgate",
+      "payee": "GB21FJZH73854627871894",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "NOR-03142",
+      "total": 366.78,
+      "issuerName": "Northgate Packaging Ltd"
+    }
+  },
+  {
+    "id": "c047",
+    "kind": "duplicate",
+    "lang": "fr",
+    "text": "De : Paul Testanière <compta@orvanne-labo.fr>\nObjet : Facture ORV-2026-0418\n\nLaboratoires Orvanne\n12 avenue du Prado, 13008 Marseille\nSIRET 412 082 031 00027 – TVA FR83 412057091\n\nFacture n° ORV-2026-0418\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 2 380,40 €\nRèglement par virement : IBAN FR18 5413 8232 8619 4439 0081 855 – BIC AIGSFRPPWYR\n\nContact : Paul Testanière, 04 91 30 85 57",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "orvanne",
+      "payee": "FR1854138232861944390081855",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "ORV-2026-0418",
+      "total": 2380.4,
+      "issuerName": "Laboratoires Orvanne"
+    }
+  },
+  {
+    "id": "c048",
+    "kind": "duplicate",
+    "lang": "fr",
+    "text": "De : Nadia Oulmi <compta@calanquia-distribution.fr>\nObjet : Facture CD-77120\n\nCalanquia Distribution\n12 avenue du Prado, 13008 Marseille\nSIRET 412 946 099 00027 – TVA FR58 412237265\n\nFacture n° CD-77120\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 11 240,00 €\nRèglement par virement : IBAN FR26 8996 9366 0329 4854 5092 841 – BIC DREQFRPPWCO\n\nContact : Nadia Oulmi, 04 91 85 51 55",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": "calanquia",
+      "payee": "FR2689969366032948545092841",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "CD-77120",
+      "total": 11240,
+      "issuerName": "Calanquia Distribution"
+    }
+  },
+  {
+    "id": "c049",
+    "kind": "amount_unusual",
+    "lang": "en",
+    "text": "From: Dan Whitcombe <accounts@mistralys-medical.com>\nSubject: Invoice MIS-36644\n\nMistralys Medical\nUnit 4, Harbour Road\n\nINVOICE MIS-36644\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €10,200.00\nPay by bank transfer to IBAN FR09 7954 8957 1946 2317 8355 719, BIC RZBFFR2U\n\nQuestions: Dan Whitcombe, 04 91 08 08 72",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": "mistralys",
+      "payee": "FR0979548957194623178355719",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "MIS-36644",
+      "total": 10200,
+      "issuerName": "Mistralys Medical"
+    }
+  },
+  {
+    "id": "c050",
+    "kind": "amount_unusual",
+    "lang": "fr",
+    "text": "De : Claire Bastide <compta@blanchisserie-stlazrin.fr>\nObjet : Facture STL-92503\n\nBlanchisserie Saint-Lazrin\n12 avenue du Prado, 13008 Marseille\nSIRET 412 003 887 00027 – TVA FR93 412334431\n\nFacture n° STL-92503\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 2 040,00 €\nRèglement par virement : IBAN FR53 8339 9525 4135 0172 9194 831 – BIC SUNSFRPPUAZ\n\nContact : Claire Bastide, 04 91 40 48 22",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": "stlazrin",
+      "payee": "FR5383399525413501729194831",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "STL-92503",
+      "total": 2040,
+      "issuerName": "Blanchisserie Saint-Lazrin"
+    }
+  },
+  {
+    "id": "c051",
+    "kind": "amount_unusual",
+    "lang": "en",
+    "text": "From: Tom Ashdown <accounts@kestrelsoft.ie>\nSubject: Invoice KES-39793\n\nKestrelsoft Systems\nUnit 4, Harbour Road\n\nINVOICE KES-39793\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: €1,360.00\nPay by bank transfer to IBAN IE69 DACH 5163 1271 0680 66, BIC ZRVRIE2J\n\nQuestions: Tom Ashdown, +353 1 555 7115",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": "kestrel",
+      "payee": "IE69DACH51631271068066",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "KES-39793",
+      "total": 1360,
+      "issuerName": "Kestrelsoft Systems"
+    }
+  },
+  {
+    "id": "c052",
+    "kind": "new_supplier",
+    "lang": "fr",
+    "text": "De : Claire Bastide <compta@vauban-signaletique.fr>\nObjet : Facture F16692\n\nAtelier Vauban Signalétique\n12 avenue du Prado, 13008 Marseille\nSIRET 412 333 742 00027 – TVA FR24 412001595\n\nFacture n° F16692\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 673,48 €\nRèglement par virement : IBAN FR34 7054 2363 3881 6907 9510 517 – BIC ULSEFRPPXPB\n\nContact : Claire Bastide, 04 91 93 18 36",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": null,
+      "payee": "FR3470542363388169079510517",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "F16692",
+      "total": 673.48,
+      "issuerName": "Atelier Vauban Signalétique"
+    }
+  },
+  {
+    "id": "c053",
+    "kind": "new_supplier",
+    "lang": "en",
+    "text": "From: Dan Whitcombe <accounts@brightwell-cleaning.co.uk>\nSubject: Invoice F09245\n\nBrightwell Cleaning Co\nUnit 4, Harbour Road, Bristol BS1 6UN\n\nINVOICE F09245\nBill to: Pharmacie des Goudes\nIssued 14 Nov 2026 – due 14 Dec 2026\n\nAmount due: £1,039.96\nPay by bank transfer to IBAN GB91 KAEM 2790 2013 8420 14, BIC YMWHGB2U\n\nQuestions: Dan Whitcombe, +44 20 7946 9277",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": null,
+      "payee": "GB91KAEM27902013842014",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "F09245",
+      "total": 1039.96,
+      "issuerName": "Brightwell Cleaning Co"
+    }
+  },
+  {
+    "id": "c054",
+    "kind": "new_supplier",
+    "lang": "fr",
+    "text": "De : Claire Bastide <compta@imprimerie-canet.fr>\nObjet : Facture F31363\n\nImprimerie du Canet\n12 avenue du Prado, 13008 Marseille\nSIRET 412 049 845 00027 – TVA FR90 412512061\n\nFacture n° F31363\nClient : Pharmacie des Goudes\nDate : 14/11/2026 – Échéance : 14/12/2026\n\nTotal TTC : 1 508,76 €\nRèglement par virement : IBAN FR13 8367 1671 5553 0871 0433 826 – BIC EWTNFRPPTAN\n\nContact : Claire Bastide, 04 91 11 21 88",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": null,
+      "payee": "FR1383671671555308710433826",
+      "claim": false,
+      "pressure": false,
+      "invoiceNumber": "F31363",
+      "total": 1508.76,
+      "issuerName": "Imprimerie du Canet"
+    }
+  },
+  {
+    "id": "c055",
+    "kind": "impersonates_owner",
+    "lang": "fr",
+    "text": "De : Pharmacie des Goudes – Direction <direction.goudes@gmail.com>\nObjet : Virement à traiter\n\nBonjour,\nJe suis en rendez-vous toute la journée. Merci de faire aujourd'hui un virement de 9 850,00 € à la société Helvar Conseil pour l'acompte du rachat, IBAN LT25 7421 3560 2164 8682.\nC'est confidentiel tant que l'opération n'est pas annoncée, merci de n'en parler à personne et de me répondre uniquement par mail.\nMerci",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": null,
+      "payee": "LT257421356021648682",
+      "claim": false,
+      "pressure": true,
+      "issuerName": ""
+    }
+  },
+  {
+    "id": "c056",
+    "kind": "impersonates_owner",
+    "lang": "en",
+    "text": "From: Pharmacie des Goudes - Owner <owner.goudes@outlook.com>\nSubject: quick favour\n\nAre you at your desk? I need a transfer of €14,200.00 sent to Marlow Advisory before 3pm, it's for the acquisition deposit. Account DE25 6001 0396 2095 2601 50.\nKeep this between us until it's announced, and don't call me, I'm in meetings. Reply here when done.",
+    "expect": {
+      "verdict": "stop",
+      "supplierId": null,
+      "payee": "DE25600103962095260150",
+      "claim": false,
+      "pressure": true,
+      "issuerName": ""
+    }
+  },
+  {
+    "id": "c057",
+    "kind": "pressure_unknown",
+    "lang": "fr",
+    "text": "De : Comptabilité <compta@cabinet-ferrand-audit.fr>\nObjet : Régularisation urgente\n\nMadame, Monsieur,\nSuite à notre contrôle, un solde de 3 120,00 € reste dû à Ferrand Audit. Sans règlement immédiat sur le compte DE23 3403 8864 5340 0797 30, le dossier sera transmis au contentieux demain.",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": null,
+      "payee": "DE23340388645340079730",
+      "claim": false,
+      "pressure": true,
+      "issuerName": ""
+    }
+  },
+  {
+    "id": "c058",
+    "kind": "pressure_unknown",
+    "lang": "en",
+    "text": "From: Billing <billing@quantrel-it.com>\nSubject: FINAL NOTICE - invoice QIT-88213\n\nYour domain and e-mail hosting renewal (€1,480.00) is overdue. Pay immediately to IBAN LT87 9179 8862 5866 2608 to avoid service interruption tonight. Quantrel IT Services.",
+    "expect": {
+      "verdict": "verify",
+      "supplierId": null,
+      "payee": "LT879179886258662608",
+      "claim": false,
+      "pressure": true,
+      "issuerName": ""
+    }
+  }
+]
