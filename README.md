@@ -4,6 +4,8 @@
 
 Built for [#BuildHybridAI 2026](https://firebasehybridaihackathon.devpost.com) with **Firebase AI Logic hybrid inference** (Web / Chrome, Gemini Nano on device, Gemini in the cloud as fallback).
 
+**Try it: https://payee-guard.web.app** in Chrome desktop. With Gemini Nano available it reads on your device; otherwise it reads a redacted copy in the cloud (App Check with reCAPTCHA Enterprise protects the endpoint). Every company, person and account in the sample inbox is invented.
+
 ## The problem
 
 A small business pays dozens of supplier invoices a month. The most expensive fraud against it is not a hack: it is an e-mail or an invoice that says *"our bank details have changed"*, from a mailbox that was broken into or from a domain one letter away from the real one. The money goes out by ordinary bank transfer, and it does not come back.
