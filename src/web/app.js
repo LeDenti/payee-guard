@@ -73,11 +73,29 @@ async function refreshEngineBadge() {
   const st = await nanoStatus();
   const el = $('engine');
   if (st === 'available') { el.className = 'engine device'; engineLabel = 'On-device model ready (Gemini Nano)'; }
-  else if (st === 'downloadable' || st === 'downloading') { el.className = 'engine'; engineLabel = 'On-device model not downloaded yet'; }
+  else if (st === 'downloadable' || st === 'downloading') {
+    el.className = 'engine';
+    engineLabel = st === 'downloading' || downloading
+      ? 'Gemini Nano downloading · redacted cloud copy meanwhile'
+      : 'Gemini Nano not downloaded yet · first check starts it, cloud (redacted) meanwhile';
+  }
   else { el.className = 'engine cloud'; engineLabel = engines?.cloud ? 'No on-device model: redacted cloud fallback' : 'No on-device model'; }
   if (engines?.kind === 'direct') engineLabel += ' · Firebase not configured';
   el.textContent = engineLabel;
   return st;
+}
+
+let downloading = false;
+function startBackgroundDownload() {
+  if (downloading) return;
+  downloading = true;
+  const el = $('engine');
+  el.className = 'engine';
+  el.textContent = 'Downloading Gemini Nano in the background…';
+  Promise.resolve()
+    .then(() => engines.prepare((p) => { el.textContent = `Downloading Gemini Nano in the background: ${Math.round((p || 0) * 100)} %`; }))
+    .catch(() => { /* stays on the cloud fallback */ })
+    .finally(() => { downloading = false; refreshEngineBadge(); });
 }
 
 // ---------- check ----------
@@ -89,16 +107,16 @@ async function check() {
   $('verdict').textContent = 'Reading…';
   try {
     const st = await refreshEngineBadge();
-    // 'downloading': do not wait for it, the router falls back (redacted cloud, or nothing)
-    if (st === 'downloadable' && engines.prepare) {
-      // a click is a user gesture: Chrome may start the one-time model download here
-      $('verdict').textContent = 'Preparing the on-device model (one-time download)…';
-      try { await engines.prepare((p) => { $('verdict').textContent = `Downloading the on-device model: ${Math.round((p || 0) * 100)} %`; }); } catch { /* fall through to cloud */ }
-      await refreshEngineBadge();
-    }
+    // Never make the user wait for the one-time model download (several GB): start it in the
+    // background (a click is the user gesture Chrome asks for) and read this document now,
+    // through the redacted cloud copy if allowed. Later checks run on the device once it is ready.
+    if (st === 'downloadable' && engines.prepare) startBackgroundDownload();
     const useCloud = $('allow-cloud').checked && engines.cloud;
     let r = await analyze({ text }, registry, { device: engines.device, cloud: useCloud ? engines.cloud : null, allowCloud: Boolean(useCloud) });
     let fallbackNote = '';
+    if (r.route === 'cloud' && (downloading || (await nanoStatus()) === 'downloading')) {
+      fallbackNote = 'Gemini Nano is downloading in the background (one time, about 4 GB); until it is ready, checks use this redacted cloud copy. Then they run on your device.';
+    }
     if (r.status === 'no_engine') {
       r = await analyze({ text }, registry, { device: baselineEngine, allowCloud: false });
       r.route = 'keywords';
@@ -145,7 +163,8 @@ function render(r, note) {
     : r.route === 'cloud'
       ? `Read <b class="cloud">in the cloud</b> by Gemini ${esc(CLOUD_MODEL)} (SDK reports ${esc(r.source)}) on a <b>redacted</b> copy: accounts, names on file, e-mails, phones, company numbers and postcodes were replaced by tokens on this device first.`
       : esc(note);
-  $('where').innerHTML = `${where} ${r.ms} ms.${r.deviceError ? ' On-device error: ' + esc(r.deviceError) : ''}`;
+  const extra = note && r.route !== 'keywords' ? ` <br><span class="fine">${esc(note)}</span>` : '';
+  $('where').innerHTML = `${where} ${r.ms} ms.${r.deviceError ? ' On-device error: ' + esc(r.deviceError) : ''}${extra}`;
   $('seen').textContent = r.sent ? (r.sent.split('Document:\n"""\n')[1] || r.sent).replace(/\n"""$/, '') : '';
   $('seen-box').hidden = !r.sent;
   $('actions').hidden = false;
@@ -171,10 +190,16 @@ function act(kind) {
 
 function renderJournal() {
   $('journal').innerHTML = journal.slice(0, 30).map((j) => `<li>${esc(j.at.slice(0, 16).replace('T', ' '))} · ${esc(j.doc)} · verdict <b>${esc(j.verdict)}</b> · you: <b>${esc(j.action)}</b>${j.account ? ' · ' + esc(j.account) : ''}</li>`).join('')
-    + (journal.length ? '' : '<li>No decision yet.</li>')
-    + '<li><a href="#" id="reset">Reset the demo data on this device</a></li>';
-  $('reset').onclick = (e) => { e.preventDefault(); registry = structuredClone(seedRegistry); journal = []; store.set('registry', registry); store.set('journal', journal); for (const s of samples) delete s.result; renderJournal(); renderInbox(); };
+    + (journal.length ? '' : '<li>No decision yet.</li>');
 }
+
+$('reset').onclick = (e) => {
+  e.preventDefault();
+  registry = structuredClone(seedRegistry); journal = [];
+  store.set('registry', registry); store.set('journal', journal);
+  for (const s of samples) delete s.result;
+  renderJournal(); renderInbox(); clearVerdict();
+};
 
 $('check').onclick = check;
 $('paste').onclick = () => { current = null; $('text').value = ''; $('text').focus(); clearVerdict(); renderInbox(); };

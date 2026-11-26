@@ -50,7 +50,7 @@ cp .env.example .env.local   # fill in your Firebase web app config and App Chec
 npx vite
 ```
 
-Open http://localhost:5173 in Chrome desktop. The first check may download Gemini Nano (one time, several GB, needs about 22 GB free disk space and 16 GB RAM or a GPU with more than 4 GB). Without Firebase configured the app still reads on device through Chrome's Prompt API, so you can try it, but the cloud fallback needs the Firebase project.
+Open http://localhost:5173 in Chrome desktop. If Gemini Nano is not on the machine yet, the first check starts its one-time download in the background (several GB; needs about 22 GB free disk space and 16 GB RAM or a GPU with more than 4 GB) and answers at once through the redacted cloud copy; checks move to the device when the model is ready. Without Firebase configured the app still reads on device through Chrome's Prompt API, so you can try it, but the cloud fallback needs the Firebase project.
 
 ## Layout
 
